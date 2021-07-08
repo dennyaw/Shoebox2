@@ -1,0 +1,164 @@
+.container {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* layout */
+    align-items: flex-start;
+    justify-content: normal;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 25px 100px;
+}
+
+.container h1 {
+    /* size */
+    margin: 0;
+    /* text style */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+
+.form-box {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* design */
+    border: 1px solid rgba(185, 181, 181, 1);
+    border-radius: 4px;
+    /* layout */
+    align-items: flex-end;
+    gap: 35px;
+    box-sizing: border-box;
+    padding: 20px 50px;
+}
+
+.form-box button {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* design */
+    background-color: #FF7374;
+    border: 0;
+    border-radius: 5px;
+    outline-width: 0;
+    /* layout */
+    padding: 12px 35px;
+    /* text style */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    /* addition */
+    cursor: pointer;
+    transition: 0.45s;
+}
+
+.form-box button:hover {
+    /* design */
+    background-color: #FF4C4E;
+    box-shadow: 0px 6px 9px rgba(33, 33, 33, 0.05);
+}
+
+.form-section {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* layout */
+    gap: 50px;
+}
+
+.form-column {
+    /* size */
+    width: 50%;
+    height: max-content;
+    /* layout */
+    align-items: flex-start;
+    justify-content: normal;
+    gap: 15px;
+}
+
+.form-column h2 {
+    /* size */
+    margin: 0;
+    /* text style */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.input-label {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* layout */
+    align-items: flex-start;
+    justify-content: normal;
+    gap: 0;
+}
+
+.input-label label,
+.input-label input[type='text'],
+.input-label input[type='date'],
+.input-label input[type='password'],
+.input-label input[type='email'] {
+    /* text style */
+    font-style: normal;
+    color: #000000;
+    /* addition */
+    box-sizing: border-box;
+}
+
+.input-label label {
+    /* text style */
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.input-label input {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* design */
+    border: 1px solid rgba(185, 181, 181, 1);
+    border-radius: 4px;
+    /* layout */
+    padding: 6px 12px;
+    /* text style */
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.input-radio-list {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 15px;
+}
+
+.input-radio {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 5px;
+}
+
+.input-radio input {
+    /* size */
+    width: 16px;
+    height: 16px;
+}
+
+.input-radio label {
+    /* text style */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}

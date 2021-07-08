@@ -1,0 +1,38 @@
+.nav-link {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* design */
+    background-color: #FFECEE;
+    /* layout */
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0;
+    /* addition */
+    position: sticky;
+    top: 0;
+}
+
+.nav-link a, .nav-link span {
+    /* text style */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
+.nav-link a {
+    /* addition */
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    /* addition */
+    text-decoration: underline;
+    text-decoration-color: #4A4A4A;
+}
+
+.nav-link span {
+    /* addition */
+    text-decoration: underline;
+}

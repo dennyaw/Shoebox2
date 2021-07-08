@@ -1,0 +1,255 @@
+.container {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* layout */
+    align-items: flex-start;
+    justify-content: normal;
+    gap: 25px;
+    box-sizing: border-box;
+    padding: 25px 100px;
+}
+
+.product-title {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    align-items: flex-start;
+    justify-content: normal;
+    gap: 0;
+}
+
+.product-title h1, .product-title h2 {
+    /* size */
+    margin: 0;
+    /* text style */
+    font-style: normal;
+    color: #000000;
+}
+
+.product-title h1 {
+    /* text style */
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.product-title h2 {
+    /* text style */
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.product-title a {
+    /* size */
+    margin-top: 15px;
+    width: max-content;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 8px;
+    /* addition */
+    text-decoration: none;
+    /* text style */
+    font-style: normal;
+    color: #000000;
+}
+
+.product-title a img {
+    /* size */
+    width: 18px;
+    height: auto;
+}
+
+.product-title a span {
+    /* text style */
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product-title a:hover {
+    /* design */
+    text-decoration: underline;
+    text-decoration-color: #000000;
+}
+
+.product-detail {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 75px;
+}
+
+.product-photo {
+    /* size */
+    width: 550px;
+    height: 400px;
+    /* design */
+    border-radius: 8px;
+    /* layout */
+    justify-content: center;
+}
+
+.product-photo img {
+    /* size */
+    width: 100%;
+    height: auto;
+}
+
+.product-description {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    align-items: flex-start;
+    justify-content: normal;
+    gap: 15px;
+}
+
+.product-description h3 {
+    /* size */
+    margin: 0;
+    /* text style */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000
+}
+
+.product-spec {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    align-items: flex-start;
+    justify-content: normal;
+    gap: 0;
+}
+
+.product-spec p, .product-size label {
+    /* size */
+    margin: 0;
+    /* text style */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
+
+.product-size {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 5px;
+}
+
+.product-size select {
+    /* size */
+    width: 125px;
+    height: 25px;
+    /* design */
+    border-radius: 4px;
+}
+
+.product-action {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 35px;
+}
+
+.input-qty {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 0;
+}
+
+.input-qty button, .input-qty input {
+    /* text style */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+    /* layout */
+    padding: 5px;
+}
+
+.input-qty button {
+    /* size */
+    width: 35px;
+    height: 35px;
+    /* addition */
+    cursor: pointer;
+}
+
+.input-qty input {
+    /* size */
+    height: 35px;
+    width: 100px;
+    /* layout */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-action button[type='submit'] {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* design */
+    background-color: #FF7374;
+    border: 0;
+    border-radius: 5px;
+    outline-width: 0;
+    /* layout */
+    padding: 12px 35px;
+    /* text style */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* addition */
+    cursor: pointer;
+    transition: 0.45s;
+}
+
+.product-action button[type='submit']:hover {
+    /* design */
+    background-color: #FF4C4E;
+    box-shadow: 0px 6px 9px rgba(33, 33, 33, 0.05);
+}
+
+button[edit] {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* design */
+    background-color: #FF7374;
+    border: 0;
+    border-radius: 5px;
+    outline-width: 0;
+    /* layout */
+    padding: 12px 35px;
+    /* text style */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* addition */
+    cursor: pointer;
+    transition: 0.45s;
+}
+
+button[edit]:hover {
+    /* design */
+    background-color: #FF4C4E;
+    box-shadow: 0px 6px 9px rgba(33, 33, 33, 0.05);
+}

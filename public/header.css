@@ -1,0 +1,157 @@
+header {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* layout */
+    box-sizing: border-box;
+    padding: 15px 50px;
+}
+
+header h1 {
+    /* size */
+    margin: 0;
+    /* text style */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #454545;
+    /* position center */
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.header-user {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    align-items: flex-end;
+    gap: 35px;
+}
+
+.header-user p {
+    /* size */
+    width: max-content;
+    height: max-content;
+    white-space: nowrap;
+    /* layout */
+    justify-content: normal;
+    gap: 5px;
+    /* text style */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: #4A4A4A;
+}
+
+.header-user p span {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* text style */
+    font-weight: 600;
+    /* addition */
+    cursor: pointer;
+    /* layout */
+    justify-content: normal;
+    gap: 5px;
+}
+
+.header-user p span:hover {
+    /* text style */
+    text-decoration: underline;
+    text-decoration-color: #454545;
+}
+
+.header-user p span img {
+    /* size */
+    width: 16px;
+    height: auto;
+}
+.icon-user {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 25px;
+}
+
+.icon-user a {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    box-sizing: border-box;
+    padding: 8px;
+    /* design */
+    border-radius: 5px;
+    /* addition */
+    transition: 0.35s;
+}
+
+.icon-user a:hover {
+    /* design */
+    background-color: rgba(229, 229, 229, 0.85);
+}
+
+.icon-user a img {
+    /* size */
+    width: 25px;
+    height: auto;
+}
+
+.welcome{
+    font-family:'Poppins',sans-serif;
+    font-weight:400;
+    font-size:10pt;
+    color: #454545;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    font-family:'Poppins',sans-serif;
+    font-weight:500;
+    color: #454545;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-align:left;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    font-family:'Poppins',sans-serif;
+    font-weight:400;
+    font-size:10pt;
+    color: #454545;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}

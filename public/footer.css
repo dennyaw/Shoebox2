@@ -1,0 +1,41 @@
+footer {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* design */
+    background-color: #F6E2E4;
+    /* layout */
+    justify-content: normal;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+   padding-bottom:0px;
+}
+
+.foot-sosmed {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* design */
+    border-bottom: 1px solid rgba(74, 74, 74, 0.45);
+    /* layout */
+    justify-content: center;
+    gap: 35px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+}
+
+.foot-sosmed a img {
+    /* size */
+    width: auto;
+    height: 35px;
+}
+
+footer span {
+    /* text style */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #4A4A4A;
+}

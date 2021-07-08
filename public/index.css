@@ -1,0 +1,177 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    font-family:'Poppins',sans-serif;
+    font-weight:400;
+    font-size:10pt;
+    color: #454545;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+.container {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 75px;
+    box-sizing: border-box;
+    padding: 35px 100px;
+}
+
+.upcoming-products {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* layout */
+    justify-content: normal;
+    gap: 25px;
+}
+
+.upcoming-products h2 {
+    /* size */
+    margin: 0;
+    /* text style */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+}
+
+.list-products {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* layout */
+    justify-content: center;
+    gap: 75px;
+}
+
+.product {
+    /* size */
+    width: 200px;
+    height: max-content;
+    /* design */
+    border-radius: 5px;
+    /* layout */
+    justify-content: normal;
+    gap: 0;
+    /* addition */
+    cursor: pointer;
+    transition: 0.45s;
+}
+
+.product:hover {
+    /* design */
+    box-shadow: 0px 6px 10px rgba(33, 33, 33, 0.25);
+}
+
+.product-photo {
+    /* size */
+    width: 200px;
+    height: 200px;
+    /* layout */
+    justify-content: center;
+}
+
+.product-photo img {
+    /* size */
+    width: 100%;
+    height: auto;
+}
+
+.product-detail {
+    /* size */
+    width: 100%;
+    height: max-content;
+    /* design */
+    background-color: #F9A3A4;
+    border-radius: 0 0 5px 5px;
+    /* layout */
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    justify-content: normal;
+    gap: 4px;
+}
+
+.product-detail span {
+    /* text style */
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.product-name {
+    /* text style */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.product-price {
+    /* text style */
+    font-weight: 400;
+}
+
+.banner {
+    /* size */
+    width: 1000px;
+    height: 650px;
+    /* design */
+    background-image: url(banner.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    /* layout */
+    align-items: flex-end;
+    justify-content: normal;
+    box-sizing: border-box;
+    padding: 50px 75px;
+}
+
+.banner button {
+    /* size */
+    width: max-content;
+    height: max-content;
+    /* design */
+    background-color: #FF7374;
+    border: 0;
+    border-radius: 100px;
+    outline-width: 0;
+    /* layout */
+    padding: 15px 45px;
+    /* text style */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+    /* addition */
+    cursor: pointer;
+    transition: 0.45s;
+}
+
+.banner button:hover {
+    /* design */
+    background-color: #FF4C4E;
+}

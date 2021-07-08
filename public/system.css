@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico');
+
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+#j-center {
+    justify-content: center;
+    /* addition */
+    transition: 0.45s;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.ph100{
+    height: 100%;
+}
+
+.pw100{
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
